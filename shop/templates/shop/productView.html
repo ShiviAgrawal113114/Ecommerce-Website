@@ -1,5 +1,9 @@
 {% extends 'shop/basic.html' %}
 {% block title %} Product {% endblock %}
+{% block css %} 
+
+
+{% endblock %}
 {% block body %}
 <main>
     <div class="container dark-grey-text mt-5">
@@ -28,23 +32,30 @@
             <form class="d-flex justify-content-left">
               <!-- Default input -->
               <input type="number" value="1" class="form-control" style="width: 100px">
-                &nbsp; &nbsp;
+                
+             
+            </div>
+          </div>
+          <div class="row">
+           <div class="col-md-6" style="margin-left: 13%; margin-bottom: 5%;"> 
               <button class="btn btn-primary btn-md my-0 p" type="submit">Add to cart
                 <i class="fa fa-shopping-cart ml-1"></i>
               </button> &nbsp; &nbsp;
               <button class="btn btn-success btn-md my-0 p" type="submit">Buy Now
                 <i class="fa fa-bolt ml-1"></i>
+              </div>
               </button>
+            </div>
 
             </form>
 
           </div>
           <!--Content-->
 
-        </div>
+       
         <!--Grid column-->
 
-      </div>
+       
       <!--Grid row-->
 
        
